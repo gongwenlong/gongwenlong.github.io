@@ -2,26 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>程序化广告</title>
-    <link>http://gongwenlong.github.io/</link>
+    <link>https://gongwenlong.github.io/</link>
     <description>Recent content on 程序化广告</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 May 2021 17:18:05 +0800</lastBuildDate><atom:link href="http://gongwenlong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 May 2021 19:04:47 +0800</lastBuildDate><atom:link href="https://gongwenlong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start</title>
+      <link>https://gongwenlong.github.io/os/start/</link>
+      <pubDate>Mon, 31 May 2021 19:04:47 +0800</pubDate>
+      
+      <guid>https://gongwenlong.github.io/os/start/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>History</title>
-      <link>http://gongwenlong.github.io/post/history/</link>
+      <link>https://gongwenlong.github.io/ad/history/</link>
       <pubDate>Mon, 31 May 2021 17:18:05 +0800</pubDate>
       
-      <guid>http://gongwenlong.github.io/post/history/</guid>
+      <guid>https://gongwenlong.github.io/ad/history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://gongwenlong.github.io/about/</link>
+      <link>https://gongwenlong.github.io/about/</link>
       <pubDate>Mon, 31 May 2021 17:12:45 +0800</pubDate>
       
-      <guid>http://gongwenlong.github.io/about/</guid>
+      <guid>https://gongwenlong.github.io/about/</guid>
       <description>Hello Hugo  aaa bbb ccc  </description>
     </item>
     
