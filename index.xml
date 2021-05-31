@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程序化广告</title>
+    <link>http://gongwenlong.github.io/</link>
+    <description>Recent content on 程序化广告</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 May 2021 17:18:05 +0800</lastBuildDate><atom:link href="http://gongwenlong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>History</title>
+      <link>http://gongwenlong.github.io/post/history/</link>
+      <pubDate>Mon, 31 May 2021 17:18:05 +0800</pubDate>
+      
+      <guid>http://gongwenlong.github.io/post/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://gongwenlong.github.io/about/</link>
+      <pubDate>Mon, 31 May 2021 17:12:45 +0800</pubDate>
+      
+      <guid>http://gongwenlong.github.io/about/</guid>
+      <description>Hello Hugo  aaa bbb ccc  </description>
+    </item>
+    
+  </channel>
+</rss>
