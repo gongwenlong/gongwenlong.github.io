@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>倒计时</title>
+  <script type="text/javascript">
+    var countDownDate;
+
+    function startCountdown() {
+      var hours = parseInt(document.getElementById("hours").value) || 0; // 默认值为0
+      var minutes = parseInt(document.getElementById("minutes").value) || 0;
+      var seconds = parseInt(document.getElementById("seconds").value) || 0;
+
+      // 获取当前时间并计算目标时间
+      var now = new Date().getTime();
+      countDownDate = now + hours * 3600000 + minutes * 60000 + seconds * 1000;
+
+      // 每秒更新一次倒计时
+      var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        // 计算时间差并更新页面
+        var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var s = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("countdown").innerHTML = h + "小时 " + m + "分钟 " + s + "秒 ";
+
+        // 倒计时结束时显示时间到
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "时间到";
+        }
+      }, 1000);
+    }
+  </script>
+</head>
+
+<body>
+  <h2>倒计时</h2>
+  <div>
+    <label>小时:</label>
+    <input type="number" id="hours">
+  </div>
+  <div>
+    <label>分钟:</label>
+    <input type="number" id="minutes">
+  </div>
+  <div>
+    <label>秒数:</label>
+    <input type="number" id="seconds">
+  </div>
+  <button onclick="startCountdown()">开始</button>
+  <div id="countdown"></div>
+</body>
+
+</html>
